@@ -7,4 +7,4 @@ layout: post
 ---
 
 <span class="image featured"><img src="/images/pic01.jpg" alt=""></span>
-Hola liz
+Hola Liz
