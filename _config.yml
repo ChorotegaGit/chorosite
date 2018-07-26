@@ -1,5 +1,5 @@
 ---
-title: Twenty Blog
+title: DentistSmile | Dental Jekyll Theme
 timezone: UTC
 collections:
   posts:
@@ -8,14 +8,44 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your-email@domain.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
+description: A responsive Jekyll theme for dental clinics.
 baseurl: 
-url: http://locahost:4000
-twitter_username: jekyllrb
-github_username: jekyll
+url: 
+logo_url: svg/min/logo.svg
+hero:
+  hero_img: hero.jpg
+  hero_title: DentistSmile
+  hero_description: A responsive Jekyll theme for dental clinics.
+api_token: 
+contact:
+  phone: 932 50 540
+  emergency: 931 53 234
+  email: contact@yoursite.com
+  address: Von schroeders 273, <br> Viña del mar - Chile
+monday_friday: 9:00 – 18:00
+saturday: 10:00 – 17:00
+sunday: 10:00 – 15:00
+testimonials:
+  testimonials_img: parallax.jpg
+map:
+  zoom: 17
+  address: Von schroeders 273, Viña del mar, Chile
+  address_details: svg/min/logo.svg
+facebook: http://facebook.com
+twitter: http://twitter.com
+instagram: http://instagram.com
+youtube: http://youtube.com
+skype: skype:obaez_design?userinfo
+feed: true
+copyright: "© 2015 DentistSmile - All rights reserved"
 markdown: kramdown
+exclude:
+- package.json
+- Gruntfile.js
+- node_modules
+- ".sass-cache"
+- Gemfile
+- Gemfile.lock
+- ".gitignore"
+analytics: 
+google_verification: 
