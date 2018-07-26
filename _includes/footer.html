@@ -1,16 +1,18 @@
-<!-- Footer -->
-<footer id="footer">
+<!-- Start Footer -->
+<footer class="main-footer">
+    <div class="container-fluid">
+        
+        <ul class="social">
+            {% if site.facebook %}<li><a href="{{ site.facebook }}"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>{% endif %}
+            {% if site.twitter %}<li><a href="{{ site.twitter }}"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>{% endif %}
+            {% if site.instagram %}<li><a href="{{ site.instagram }}"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>{% endif %}
+            {% if site.youtube %}<li><a href="{{ site.youtube }}"><svg class="icon icon-youtube"><use xlink:href="#icon-youtube"></use></svg></a></li>{% endif %}
+            {% if site.skype %}<li><a href="{{ site.skype }}"><svg class="icon icon-skype"><use xlink:href="#icon-skype"></use></svg></a></li>{% endif %}
+            {% if site.feed %}<li><a href="#"><svg class="icon icon-feed"><use xlink:href="#icon-feed"></use></svg></a></li>{% endif %}
+        </ul>
 
-    <ul class="icons">
-        <li><a href="#" class="icon circle fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon circle fa-facebook"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon circle fa-google-plus"><span class="label">Google+</span></a></li>
-        <li><a href="#" class="icon circle fa-github"><span class="label">Github</span></a></li>
-        <li><a href="#" class="icon circle fa-dribbble"><span class="label">Dribbble</span></a></li>
-    </ul>
+        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
 
-    <ul class="copyright">
-        <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-    </ul>
-
+    </div>
 </footer>
+<!-- End Footer -->
